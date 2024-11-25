@@ -1,0 +1,1 @@
+body{background:#aaa}.box1{width:15rem;height:27rem;border-radius:1%;padding:3rem;border:2px solid black;background-color:#fff}.box1 h1{text-align:center}.box1 p{text-align:center;padding-bottom:2rem}.box1 a{background-color:#000;padding:1rem;border-radius:25%}.box1:hover{background-color:#00f}.box1:hover h1,.box1:hover p,.box1:hover a{color:#fff}.box1:hover #twitter{fill:#fff}
