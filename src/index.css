@@ -1,0 +1,42 @@
+body {
+  background: #aaa;
+}
+
+.box {
+  width: 15rem;
+  height: 27rem;
+  border-radius: 1%;
+  padding: 3rem;
+  border: 2px solid black;
+
+  /* border-color: black; */
+  background-color: white;
+
+  h1 {
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+    padding-bottom: 2rem;
+  }
+  
+  a {
+    background-color: black;
+    padding: 1rem;
+    border-radius: 25%;
+    
+  }
+  
+  &:hover{
+    background-color: blue;
+    
+    h1,p,a {
+      color: white;
+    }
+
+    #twitter {
+      fill: white;
+    }
+  }
+}
